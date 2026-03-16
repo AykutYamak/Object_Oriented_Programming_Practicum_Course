@@ -43,6 +43,7 @@ void saveArr(char *array) {
 	}
 	ofile << '|';
 	ofile.close();
+	std::cout << "Done!";
 }
 //void loadArr(char* array) {
 //	std::ifstream ifile("arrays.txt", std::ios::in);
@@ -72,7 +73,7 @@ int main()
 	std::cout << "size (linear time): " << sizeFileLinear(file);
 	std::cout << "size (const time): " << sizeFileConst(file);*/
 
-	int a, b, c;
+	/*int a, b, c;
 	std::cin >> a >> b >> c;
 	std::ofstream ofile("result.txt");
 	ofile << a + b + c;
@@ -81,5 +82,8 @@ int main()
 	ofile.close();
 	std::ifstream in("result.txt");
 	std::cout << returnDifference(in);
-	in.close();
+	in.close();*/
+	
+	char array[5]{ '1','2','3','4','|'};
+	saveArr(array);
 }
