@@ -1,4 +1,4 @@
 ﻿  Week02.cpp
-D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(15,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(23,19): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(16,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(24,19): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
   Week02.vcxproj -> D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\x64\Debug\Week02.exe
