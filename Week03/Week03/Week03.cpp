@@ -1,20 +1,131 @@
-﻿// Week03.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
+#include <fstream>
+#include <cmath>
+#include <cstring>
+//1
+bool isPrime(int n) {
+	if (n <= 1) return false;
+	if (n == 2) return true;
+	if (n % 2 == 0) return false;
+	for (int i = 3; i <= std::sqrt(n); i++)
+	{
+		if (n%i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
+}
+void writePrimeNumsToFile(const char* filename) {
+	std::ifstream ifile(filename, std::ios::in | std::ios::binary);
+	if (!ifile.is_open())
+	{
+		std::cerr << "Error! File "  << filename << " didn't open!" << '\n';
+		return;
+	}
+	std::ofstream ofile("primes.bin", std::ios::out | std::ios::binary);
+	if (!ofile.is_open())
+	{
+		std::cerr << "Error! The primes.bin file didn't open!" << '\n';
+		ifile.close();
+		return;
+	}
+	int currentNumber = 0;
+	int primesCount = 0;
 
-#include <iostream>
- 
+	while (ifile.read(reinterpret_cast<char*>(&currentNumber),sizeof(int)))
+	{
+		if (isPrime(currentNumber))
+		{
+			ofile.write(reinterpret_cast<char*>(&currentNumber), sizeof(int));
+			primesCount++;
+		}
+	}
+	std::cout << "Successfully extracted " << primesCount << " prime numbers!" << '\n';
+	ofile.close();
+	ifile.close();
+}
+
+//2
+enum Type {
+	Margarita,
+	Kalcone,
+	Burata
+};
+enum Size {
+	S,
+	M,
+	L
+};
+struct Pizza {
+	Type typePizza;
+	Size sizePizza;
+	double price;
+};
+struct Order
+{
+	char clientName[50];
+	char phoneNumber[20];
+	char address[100];
+	double price;
+	int countPizzas;
+	Pizza pizzas[10];
+};
+
+
+void writeOrdersToBinary(const char* filename, Order* orders, int count) {
+	std::ofstream ofile(filename, std::ios::out | std::ios::binary);
+	if (!ofile.is_open())
+	{
+		std::cout << "Erorr! File didn't open!" << '\n';
+		return;
+	}
+	for (int i = 0; i < count; i++)
+	{
+		if (orders[i].clientName == '\0')
+		{
+			break;
+		}
+		ofile.write(reinterpret_cast<const char*>(&orders[i]), sizeof(Order));
+ 	}
+	std::cout << "Successfully written " << count << " orders in the file!" << '\n';
+	ofile.close();
+}
+int loadOrdersFromBinary(const char* filename, Order orders[], int maxCapacity) {
+	std::ifstream ifile(filename, std::ios::binary | std::ios::in);
+	if (!ifile.is_open())
+	{
+		std::cout << "Erorr! File didn't open!" << '\n';
+		return 0;
+	}
+	int count = 0;
+	
+	while (count < maxCapacity && ifile.read(reinterpret_cast<char*>(&orders[count]),sizeof(Order)))
+	{
+		count++;
+	}
+
+	ifile.close();
+	return count;
+
+}
+void sortOrdersByAddress(Order orders[], int count) {
+	for (int i = 0; i < count-1; i++)
+	{
+		for (int j = 0; j < count-i-1; j++)
+		{
+			if (std::strcmp(orders[i].address, orders[j].address) > 0)
+			{
+				Order temp = orders[j];
+				orders[j] = orders[j+1];
+				orders[j+1] = temp;
+			}
+		}
+	}
+	std::cout << "Orders are sorted!" << '\n';
+	return;
+}
 int main()
 {
     std::cout << "Hello World!\n";
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
