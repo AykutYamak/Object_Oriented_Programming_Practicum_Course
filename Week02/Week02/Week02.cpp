@@ -1,6 +1,8 @@
-﻿#include <iostream>
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
 #include <fstream>
 #include <cmath>
+#include <cstring>
 //1
 int sizeFileLinear(std::ifstream& file) {
 	if (!file.is_open())
@@ -220,29 +222,198 @@ enum Genre {
 	Hirostical
 };
 struct Book {
-	char ISBN[10];
+	char ISBN[11];
 	Genre genre;
 	char title[128];
 	char author[128];
 };
+
 bool checkIfFileContainsBook(char* ISBN, const char* filename) {
-	std::ifstream ifile(filename, std::ios::beg | std::ios::in | std::ios::binary);
+	std::ifstream ifile(filename, std::ios::beg | std::ios::in);
+	if (!ifile.is_open())
+	{
+		std::cout << "Error! File didn't open!" << std::endl;
+		return false;
+	}
 	char buffer[1025];
 	while (ifile.getline(buffer,1025))
 	{
-
+		if (std::strncmp(buffer, ISBN, 10) == 0) {
+			return true;
+		}
 	}
+	return false;
 }
-void saveBookToFile(const char* filename) {
-	std::ofstream ofile(filename, std::ios::out | std::ios::app | std::ios::binary);
+void saveBookToFile(const char* filename, Book& book) {
+	if (checkIfFileContainsBook(book.ISBN, filename))
+	{
+		std::cout << "This book is already saved in the file!" << '\n';
+		return;
+	}
+
+	std::ofstream ofile(filename, std::ios::out | std::ios::app);
+		
 	if (!ofile.is_open())
 	{
 		std::cout << "Error! File didn't open!" << '\n';
 		return;
 	}
-	
+	ofile << book.ISBN << " | " << book.title << " | " << book.author << " | " << book.genre << " | " << '\n';
+	std::cout << "Done!" << '\n';
+}
+int getAllBooksFromFile(const char* filename, Book books[], int maxCapacity) {
+	std::ifstream ifile(filename, std::ios::in);
+	if (!ifile.is_open())
+	{
+		std::cout << "Error! File didn't open!" << std::endl;
+		return -1;
+	}
+
+	int count = 0;
+	char buffer[1025];
+	while (count < maxCapacity && ifile.getline(buffer, 1025))
+	{
+		char* ptr = buffer;
+		char* sep1 = std::strstr(ptr, " | ");
+		if (!sep1)
+		{
+			continue;
+		}
+		*sep1 = '\0';
+		std::strncpy(books[count].ISBN, ptr, 11);
+		ptr = sep1 + 3;
+		char* sep2 = std::strstr(ptr, " | ");
+		if (!sep2)
+		{
+			continue;
+		}
+		*sep2 = '\0';
+		std::strncpy(books[count].title, ptr, 128);
+		ptr = sep2 + 3;
+		char* sep3 = std::strstr(ptr, " | ");
+		if (!sep3)
+		{
+			continue;
+		}
+		*sep3 = '\0';
+		std::strncpy(books[count].author, ptr, 128);
+
+		ptr = sep3 + 3;
+		books[count].genre = static_cast<Genre>(std::atoi(ptr));
+		count++;
+	}
+	return count;
 }
 
+void printBook(const Book& book) {
+	std::cout << "ISBN: " << book.ISBN << "\nTitle: " << book.title << "\nAuthor: " << book.author << "\nGenre ID: " << book.genre << "\n-------------------\n";
+}
+Book* getBookByISBN(const char* filename, char* ISBN) {
+	std::ifstream ifile(filename, std::ios::in);
+	if (!ifile.is_open())
+	{
+		std::cout << "Error! The file didn't open!";
+		return nullptr;
+	}
+	char buffer[1025];
+	int count = 0;
+	if (checkIfFileContainsBook(ISBN, filename))
+	{
+		while (ifile.getline(buffer,1025))
+		{
+			count++;
+		}
+	}
+	else
+	{
+		std::cout << "No book with this ISBN found!" << std::endl;
+		ifile.close();
+		return nullptr;
+	}
+	ifile.close();
+	Book* books = new Book[count];
+	int loadedBooks = getAllBooksFromFile(filename, books, count);
+	for (int i = 0; i < loadedBooks; i++)
+	{
+		if (std::strcmp(books[i].ISBN, ISBN))
+		{
+			Book* foundbook = new Book;
+			*foundbook = books[i];
+			std::cout << "Done!" << '\n';
+			delete[] books;
+			return foundbook;
+		}
+	}
+	std::cout << "No book with this ISBN found!" << std::endl;
+	delete[] books;
+	return nullptr;
+}
+void updateBookInFile(const char* filename, const char* ISBN, const Book& updatedBook) {
+	int maxCapacity = 100;
+	Book* books = new Book[maxCapacity];
+	int loadedCount = getAllBooksFromFile(filename, books, maxCapacity);
+	bool isFound = false;
+	for (int i = 0; i < loadedCount; i++)
+	{
+		if (std::strcmp(books[i].ISBN,ISBN))
+		{
+			books[i] = updatedBook;
+			isFound = true;
+			break;
+		}
+	}
+	if (!isFound)
+	{
+		std::cout << "Book with this ISBN isn't found!" << std::endl;
+		delete[] books;
+		return;
+	}
+	std::ofstream ofile(filename, std::ios::out);
+	if (!ofile.is_open())
+	{
+		std::cout << "Error! Could not open file to save updates!" << std::endl;
+		delete[] books;
+		return;
+	}
+	for (int i = 0; i < loadedCount; i++)
+	{
+		ofile << books[i].ISBN << " | " << books[i].title << " | " << books[i].author << " | " << books[i].genre << '\n';
+	}
+	std::cout << "Book updated successfully!" << std::endl;
+	delete[] books;
+}
+void deleteBookFromFile(const char* filename, const char* ISBN, int maxCapacity) {
+	Book* books = new Book[maxCapacity];
+	int loadedCount = getAllBooksFromFile(filename, books, maxCapacity);
+	std::ofstream ofile(filename, std::ios::out);
+	if (!ofile.is_open())
+	{
+		std::cout << "Error! Could not open file to save updates!" << std::endl;
+		delete[] books;
+		return;
+	}
+	bool isDeleted = false;
+	for (int i = 0; i < loadedCount; i++)
+	{
+		if (std::strcmp(books[i].ISBN, ISBN))
+		{
+			isDeleted = true;
+			continue;
+		}
+		ofile << books[i].ISBN << " | " << books[i].title << " | " << books[i].author << " | " << books[i].genre << '\n';
+	}
+	if (isDeleted)
+	{
+		std::cout << "Book deleted successfully!" << std::endl;
+	}
+	else
+	{
+		std::cout << "Book with this ISBN is not found!" << std::endl;
+	}
+	delete[] books;
+}
+
+//7
 
 int main()
 {	//2
@@ -288,11 +459,22 @@ int main()
 	if (fileOne.is_open()) fileOne.close();
 	if (fileTwo.is_open()) fileTwo.close();*/
 
-	char fileName[] = "template.csv";
+	//5
+	/*char fileName[] = "template.csv";
 	Student student1 = { "Ivan","Ivanov",12345,4.50, HairColor::Black };
 	saveStudentToFile(student1, fileName);
 	readStudentsFromFile(fileName);
 	Student student2 = { "Misho", "Mishev", 53456, 2.56, HairColor::Red };
 	saveStudentToFile(student2, fileName);
-	readStudentsFromFile(fileName);
+	readStudentsFromFile(fileName);*/
+	
+	//6
+	const char* dbFile = "library.txt";
+    
+    Book library[100];
+
+	int loadedCount = getAllBooksFromFile(dbFile, library, 100);
+
+	std::cout << "Успешно заредени " << loadedCount << " книги от файла.\n\n";
+	return 0;
 }

@@ -1,4 +1,29 @@
 ﻿  Week02.cpp
-D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(16,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(24,19): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
-  Week02.vcxproj -> D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\x64\Debug\Week02.exe
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(18,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(26,19): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(316,3): error C2561: 'getBookByISBN': function must return a value
+      D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(311,7):
+      see declaration of 'getBookByISBN'
+  
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0423' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0441' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u043F' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0435' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0448' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u043D' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u043E' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0437' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0430' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0440' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0434' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,15): warning C4566: character represented by universal-character-name '\u0438' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u043A' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u043D' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u0438' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u0433' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u043E' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u0442' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u0444' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u0430' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u0439' cannot be represented in the current code page (1252)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week02\Week02\Week02.cpp(405,68): warning C4566: character represented by universal-character-name '\u043B' cannot be represented in the current code page (1252)
