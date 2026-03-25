@@ -123,7 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Week05.cpp" />
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Duelist.cpp" />
+    <ClCompile Include="Magic.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Deck.hpp" />
+    <ClInclude Include="Duelist.hpp" />
+    <ClInclude Include="Magic.hpp" />
+    <ClInclude Include="Monster.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

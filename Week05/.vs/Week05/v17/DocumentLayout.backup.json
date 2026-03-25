@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Week05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Week05.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Deck.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Deck.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Duelist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Duelist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Magic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Magic.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Magic.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Magic.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Monster.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Monster.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Duelist.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{20D68F25-6178-4836-A6DD-BFBAFEB22D30}|Week05\\Week05.vcxproj|solutionrelative:Week05\\Duelist.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 173,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +58,117 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Duelist.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Duelist.cpp",
+              "RelativeDocumentMoniker": "Week05\\Duelist.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Duelist.cpp",
+              "RelativeToolTip": "Week05\\Duelist.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-25T22:03:36.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Duelist.hpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Duelist.hpp",
+              "RelativeDocumentMoniker": "Week05\\Duelist.hpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Duelist.hpp",
+              "RelativeToolTip": "Week05\\Duelist.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-25T21:58:22.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Week05.cpp",
-              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Week05.cpp",
-              "RelativeDocumentMoniker": "Week05\\Week05.cpp",
-              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Week05.cpp",
-              "RelativeToolTip": "Week05\\Week05.cpp",
-              "ViewState": "AgIAALkAAAAAAAAAAAAUwM0AAAAAAAAAAAAAAA==",
+              "Title": "Deck.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Deck.cpp",
+              "RelativeDocumentMoniker": "Week05\\Deck.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Deck.cpp*",
+              "RelativeToolTip": "Week05\\Deck.cpp*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-25T21:51:48.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Deck.hpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Deck.hpp",
+              "RelativeDocumentMoniker": "Week05\\Deck.hpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Deck.hpp",
+              "RelativeToolTip": "Week05\\Deck.hpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-25T21:48:44.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Magic.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Magic.cpp",
+              "RelativeDocumentMoniker": "Week05\\Magic.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Magic.cpp",
+              "RelativeToolTip": "Week05\\Magic.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-25T21:45:45.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Magic.hpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Magic.hpp",
+              "RelativeDocumentMoniker": "Week05\\Magic.hpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Magic.hpp",
+              "RelativeToolTip": "Week05\\Magic.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-25T21:45:23.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Monster.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Monster.cpp",
+              "RelativeDocumentMoniker": "Week05\\Monster.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Monster.cpp",
+              "RelativeToolTip": "Week05\\Monster.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-25T21:36:05.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Monster.hpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Monster.hpp",
+              "RelativeDocumentMoniker": "Week05\\Monster.hpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\Monster.hpp",
+              "RelativeToolTip": "Week05\\Monster.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-25T21:35:45.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\main.cpp",
+              "RelativeDocumentMoniker": "Week05\\main.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\Week05\\Week05\\main.cpp",
+              "RelativeToolTip": "Week05\\main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-19T13:22:13.426Z",
               "EditorCaption": ""
