@@ -125,6 +125,15 @@ void sortOrdersByAddress(Order orders[], int count) {
 	std::cout << "Orders are sorted!" << '\n';
 	return;
 }
+
+
+//3
+struct jobAd {
+	char companyName[26];
+	int countDevsInTheCompany;
+	int countPaidDaysOff;
+	long long salary;
+};
 int main()
 {
     std::cout << "Hello World!\n";
