@@ -3,23 +3,23 @@
 #pragma warning(disable:4996)
 
 void Monster::free() {
-    if (name)
+    if (this->name)
     {
-        delete[] name;
+        delete[] this->name;
     }
-    attackPoints = 1;
-    deffencePoints = 1;
+    this->attackPoints = 1;
+    this->deffencePoints = 1;
 }
 void Monster::copyFrom(const Monster& other) {
-    attackPoints = other.attackPoints;
-    deffencePoints = other.deffencePoints;
-    name = new char[strlen(other.name) + 1];
-    strcpy(name, other.name);
+    this->attackPoints = other.attackPoints;
+    this->deffencePoints = other.deffencePoints;
+    this->name = new char[strlen(other.name) + 1];
+    strcpy(this->name, other.name);
 }
 Monster::Monster() {
-    name = nullptr;
-    attackPoints = 1;
-    deffencePoints = 1;
+    this->name = nullptr;
+    this->attackPoints = 1;
+    this->deffencePoints = 1;
 }
 Monster::Monster(const Monster& other) {
     copyFrom(other);
@@ -36,7 +36,7 @@ Monster::~Monster() {
     free();
 }
 int Monster::getAttacPoints() const {
-    return attackPoints;
+    return this->attackPoints;
 }
 void Monster::setAttackPoints(int attackPoints) {
     if (attackPoints < 0)
@@ -46,7 +46,7 @@ void Monster::setAttackPoints(int attackPoints) {
     this->attackPoints = attackPoints;
 }
 int Monster::getDeffencePoints() const {
-    return deffencePoints;
+    return this->deffencePoints;
 }
 void Monster::setDeffencePoints(int deffencePoints) {
     if (deffencePoints < 0)

@@ -13,36 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Ex1-Yu-Gi-Oh!">
+      <UniqueIdentifier>{1960a86a-16cb-4023-86cd-46a02e5f5203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex2-Shopping-cart">
+      <UniqueIdentifier>{fd9dc406-fbbf-468f-8247-741452a3ea5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Monster.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
     </ClCompile>
     <ClCompile Include="Magic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Deck.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
     </ClCompile>
     <ClCompile Include="Duelist.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>Source Files\Ex2-Shopping-cart</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Ex2-Shopping-cart</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Monster.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
     </ClInclude>
     <ClInclude Include="Magic.hpp">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Deck.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
     </ClInclude>
     <ClInclude Include="Duelist.hpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.hpp">
+      <Filter>Source Files\Ex1-Yu-Gi-Oh!</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.hpp">
+      <Filter>Source Files\Ex2-Shopping-cart</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@
 #include "Deck.hpp"
 #include "Duelist.hpp"
 #pragma warning(disable:4996)
+#pragma once
 
 int main()
 {

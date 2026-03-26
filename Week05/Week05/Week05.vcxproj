@@ -125,13 +125,16 @@
   <ItemGroup>
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="Duelist.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="Magic.cpp" />
+    <ClCompile Include="main2.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Deck.hpp" />
     <ClInclude Include="Duelist.hpp" />
+    <ClInclude Include="Item.hpp" />
     <ClInclude Include="Magic.hpp" />
     <ClInclude Include="Monster.hpp" />
   </ItemGroup>
