@@ -1,0 +1,16 @@
+﻿  Week08(continue).cpp
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08(continue)\Week08(continue)\MergeSort.hpp(41,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Week08(continue).cpp')
+      D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08(continue)\Week08(continue)\MergeSort.hpp(41,20):
+      the template instantiation context (the oldest one first) is
+          D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08(continue)\Week08(continue)\Week08(continue).cpp(12,17):
+          see reference to function template instantiation 'T *mergeSort<int>(T *,unsigned int,const std::function<bool (int,int)> &)' being compiled
+          with
+          [
+              T=int
+          ]
+  
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08(continue)\Week08(continue)\MergeSort.hpp(45,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Week08(continue).cpp')
+  
+  Week08(continue).vcxproj -> D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08(continue)\x64\Debug\Week08(continue).exe

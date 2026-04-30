@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\highOrderFuncs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|solutionrelative:PrepareForExam\\highOrderFuncs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\tkostadinovEx2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|solutionrelative:PrepareForExam\\tkostadinovEx2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\tkostadinovWeek06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|solutionrelative:PrepareForExam\\tkostadinovWeek06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\PrepareForExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{12D77003-98FF-473D-BF64-6A5754B01637}|PrepareForExam\\PrepareForExam.vcxproj|solutionrelative:PrepareForExam\\PrepareForExam.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 173,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "highOrderFuncs.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\highOrderFuncs.cpp",
+              "RelativeDocumentMoniker": "PrepareForExam\\highOrderFuncs.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\highOrderFuncs.cpp*",
+              "RelativeToolTip": "PrepareForExam\\highOrderFuncs.cpp*",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAjwGIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-28T08:44:08.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tkostadinovEx2.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\tkostadinovEx2.cpp",
+              "RelativeDocumentMoniker": "PrepareForExam\\tkostadinovEx2.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\tkostadinovEx2.cpp",
+              "RelativeToolTip": "PrepareForExam\\tkostadinovEx2.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAwGkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T21:41:58.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tkostadinovWeek06.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\tkostadinovWeek06.cpp",
+              "RelativeDocumentMoniker": "PrepareForExam\\tkostadinovWeek06.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\tkostadinovWeek06.cpp",
+              "RelativeToolTip": "PrepareForExam\\tkostadinovWeek06.cpp",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAMwFIBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T18:18:14.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrepareForExam.cpp",
+              "DocumentMoniker": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\PrepareForExam.cpp",
+              "RelativeDocumentMoniker": "PrepareForExam\\PrepareForExam.cpp",
+              "ToolTip": "D:\\\u0421\u0423 \u0424\u041C\u0418\\1 \u041A\u0443\u0440\u0441\\\u0412\u0442\u043E\u0440\u0438 \u0441\u0435\u043C\u0435\u0441\u0442\u044A\u0440\\Object_Oriented_Programming_Practicum_Course\\PrepareForExam\\PrepareForExam\\PrepareForExam.cpp",
+              "RelativeToolTip": "PrepareForExam\\PrepareForExam.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-27T08:29:04.264Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 173,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

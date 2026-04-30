@@ -1,0 +1,10 @@
+﻿  Week08.cpp
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08\Week08\Week08.cpp(10,5): error C2760: syntax error: '}' was unexpected here; expected '{'
+      D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08\Week08\Week08.cpp(10,5):
+      the template instantiation context (the oldest one first) is
+          D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08\Week08\Week08.cpp(4,7):
+          while compiling class template 'LinkedList'
+          D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08\Week08\Week08.cpp(5,12):
+          while compiling class 'LinkedList<T>::Node'
+  
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week08\Week08\Week08.cpp(10,1): error C1903: unable to recover from previous error(s); stopping compilation
