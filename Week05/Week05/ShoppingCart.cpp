@@ -120,12 +120,12 @@ bool ShoppingCart::removeItem(const char* name) {
 	}
 	return false;
 }
-const int ShoppingCart::itemsCount() const{
+int ShoppingCart::itemsCount() const{
 	return this->countItems;
 }
 const bool ShoppingCart::exists(const char* name) const {
-	Item& result = findByName(name);
-	if(result.getName() != nullptr) return true;
+	int resultIndex = find(name);
+	if(this->items[resultIndex].getName() != nullptr) return true;
 	return false;
 }
 const bool ShoppingCart::isEmpty() const{
@@ -137,12 +137,12 @@ const double ShoppingCart::getPriceOf(const char* name) const{
 	{
 		return 0.0;
 	}
-	Item& result = findByName(name);
-	if (result.getName() == nullptr)
+	int resultIndex = find(name);
+	if (this->items[resultIndex].getName() == nullptr)
 	{
 		return 0.0;
 	}
-	return result.getPrice();
+	return this->items[resultIndex].getPrice();
 }
 const double ShoppingCart::totalPrice() const{
 	double result = 0;
