@@ -1,0 +1,9 @@
+﻿  BigInt.cpp
+  BigInt.hpp
+  Generating Code...
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week06\Week06\BigInt.cpp(126,1): warning C4715: 'BigInt::operator+': not all control paths return a value
+x64\Debug\BigInt.obj : warning LNK4042: object specified more than once; extras ignored
+BigInt.obj : error LNK2019: unresolved external symbol "public: bool __cdecl BigInt::operator!=(class BigInt const &)const " (??9BigInt@@QEBA_NAEBV0@@Z) referenced in function "public: class BigInt & __cdecl BigInt::operator=(class BigInt const &)" (??4BigInt@@QEAAAEAV0@AEBV0@@Z)
+BigInt.obj : error LNK2019: unresolved external symbol "public: bool __cdecl BigInt::operator<(class BigInt const &)const " (??MBigInt@@QEBA_NAEBV0@@Z) referenced in function "public: class BigInt __cdecl BigInt::operator+(class BigInt const &)const " (??HBigInt@@QEBA?AV0@AEBV0@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\СУ ФМИ\1 Курс\Втори семестър\Object_Oriented_Programming_Practicum_Course\Week06\x64\Debug\Week06.exe : fatal error LNK1120: 3 unresolved externals

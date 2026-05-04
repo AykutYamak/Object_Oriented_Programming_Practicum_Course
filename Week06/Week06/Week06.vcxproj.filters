@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Week06.cpp">
+    <ClCompile Include="BigInt.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigInt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
